@@ -34,8 +34,8 @@ dependencies {
 
     //这里没有使用私有maven仓，而是发到JitPack仓，一样的意思~
 //    implementation 'com.hfy.cart:cart:1.0.0'
-    implementation 'com.github.hufeiyang.Cart:module_cart:1.0.6'
-    implementation 'com.github.hufeiyang:HomePage:1.0.4'
+    implementation 'com.github.hufeiyang.Cart:module_cart:1.0.9'
+    implementation 'com.github.hufeiyang:HomePage:1.0.5'
 
     //壳工程内 也需要依赖Common组件，因为需要初始化ARouter
     implementation 'com.github.hufeiyang:Common:1.0.0'
