@@ -5,10 +5,15 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
+        //applifecycle插件仓也是jitpack
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
+
+        //加载插件applifecycle
+        classpath 'com.github.hufeiyang.Android-AppLifecycleMgr:applifecycle-plugin:1.0.3'
 
 
         // NOTE: Do not place your application dependencies here; they belong
